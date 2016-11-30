@@ -1,0 +1,33 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "shift+cmd+f",
+        "command": "search.action.replaceAll",
+        "when": "true"
+    },
+    {
+        "key": "cmd+a",
+        "command": "workbench.action.files.newFile",
+        "when": "!editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+7",
+        "command": "editor.action.addCommentLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+shift+i",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+x",
+        "command": "workbench.action.files.newFolder",
+        "when": "!editorTextFocus && !editorReadonly"
+    }
+]

@@ -1,0 +1,24 @@
+{
+    "editor.fontSize": 14,
+    "editor.wordWrap": true,
+    "typescript.check.tscVersion": false,
+    "window.zoomLevel": 1,
+    "editor.renderWhitespace": "boundary",
+    "search.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/android": true,
+        "**/ios": true
+    },
+    "gitProjectManager.baseProjectsFolders": [
+        "/Users/truksskeie/Documents/Progge/side-project",
+        "/Users/truksskeie/Documents/Progge/Work"
+    ],
+    "gitProjectManager.ignoredFolders": [
+        "node_modules"
+    ],
+    "gitProjectManager.maxDepthRecursion": 4,
+    "gitProjectManager.checkRemoteOrigin": false,
+    "gitProjectManager.openInNewWindow": false
+}
